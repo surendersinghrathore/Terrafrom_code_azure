@@ -4,6 +4,6 @@ module "module-rgs" {
 }
 
 module "module-stgs" {
-r  source    = "../../module/Storage-azure"  # Corrected the source path for the storage module
+  source    = "../../module/Storage-azure"  # Corrected the source path for the storage module
   stgs      = var.pro_stgs  # Correct variable reference for storage
 }
